@@ -1,0 +1,102 @@
+/* =============================================
+   VARIABLES — Indigo & Rose Theme
+   India by Car Driver
+   ============================================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&family=DM+Mono:wght@400;500&display=swap');
+
+:root {
+  /* === COLOR PALETTE — INDIGO & ROSE === */
+  --clr-indigo:       #4338CA;       /* Deep indigo */
+  --clr-indigo-light: #6366F1;       /* Mid indigo */
+  --clr-indigo-pale:  #EEF2FF;       /* Very light indigo tint */
+  --clr-indigo-mid:   #818CF8;       /* Soft violet */
+
+  --clr-rose:         #E11D48;       /* Vivid rose */
+  --clr-rose-light:   #FB7185;       /* Blush rose */
+  --clr-rose-pale:    #FFF1F4;       /* Very light rose tint */
+
+  --clr-bg:           #FAFAFA;       /* Warm off-white background */
+  --clr-bg-card:      #FFFFFF;       /* Card backgrounds */
+  --clr-bg-section:   #F4F4FA;       /* Light indigo-tinted section bg */
+
+  --clr-text:         #1A1A2E;       /* Near-black text */
+  --clr-text-mid:     #3D3D5C;       /* Mid-dark text */
+  --clr-text-muted:   #7070A0;       /* Muted text */
+  --clr-text-light:   #A9A9C8;       /* Light descriptive text */
+
+  --clr-border:       #E2E2F0;       /* Subtle border */
+  --clr-border-strong:#C8C8E8;       /* Stronger border */
+
+  --clr-surface-1:    #F0F0FA;       /* Lightest surface */
+  --clr-surface-2:    #E8E8F8;       /* Slightly deeper */
+
+  /* Dark sections */
+  --clr-dark:         #0F0F2A;       /* Deep navy-indigo dark */
+  --clr-dark-2:       #181836;       /* Slightly lighter */
+  --clr-dark-3:       #232350;       /* Panel dark */
+
+  /* Accent / Highlight */
+  --clr-accent:       #E11D48;       /* = rose */
+  --clr-accent-2:     #F59E0B;       /* Amber warm accent */
+
+  /* Gradients */
+  --grad-hero:        linear-gradient(135deg, #0F0F2A 0%, #1e1b4b 50%, #2d1b69 100%);
+  --grad-indigo:      linear-gradient(135deg, #4338CA 0%, #6366F1 100%);
+  --grad-rose:        linear-gradient(135deg, #E11D48 0%, #FB7185 100%);
+  --grad-card:        linear-gradient(160deg, #ffffff 0%, #f4f4ff 100%);
+  --grad-cta:         linear-gradient(135deg, #3730a3 0%, #4338CA 40%, #7c3aed 100%);
+
+  /* === TYPOGRAPHY === */
+  --ff-display:   'Playfair Display', Georgia, serif;
+  --ff-body:      'DM Sans', system-ui, sans-serif;
+  --ff-mono:      'DM Mono', monospace;
+
+  /* Font sizes */
+  --fs-xs:   0.72rem;
+  --fs-sm:   0.85rem;
+  --fs-base: 1rem;
+  --fs-md:   1.05rem;
+  --fs-lg:   1.2rem;
+  --fs-xl:   1.4rem;
+  --fs-2xl:  1.75rem;
+  --fs-3xl:  2.25rem;
+  --fs-4xl:  3rem;
+  --fs-5xl:  3.75rem;
+  --fs-hero: clamp(2.8rem, 6vw, 5rem);
+
+  /* === SPACING === */
+  --sp-xs:  4px;
+  --sp-sm:  8px;
+  --sp-md:  16px;
+  --sp-lg:  24px;
+  --sp-xl:  40px;
+  --sp-2xl: 64px;
+  --sp-3xl: 96px;
+
+  /* === RADIUS === */
+  --r-xs:   4px;
+  --r-sm:   8px;
+  --r-md:   14px;
+  --r-lg:   20px;
+  --r-xl:   28px;
+  --r-full: 9999px;
+
+  /* === SHADOWS === */
+  --shadow-sm:  0 1px 4px rgba(67,56,202,0.07);
+  --shadow-md:  0 4px 20px rgba(67,56,202,0.12);
+  --shadow-lg:  0 12px 40px rgba(67,56,202,0.16);
+  --shadow-rose:0 8px 28px rgba(225,29,72,0.2);
+  --shadow-card:0 2px 12px rgba(26,26,46,0.08);
+
+  /* === TRANSITIONS === */
+  --ease:     cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --t-fast:   0.15s;
+  --t-mid:    0.3s;
+  --t-slow:   0.55s;
+
+  /* === LAYOUT === */
+  --container: 1260px;
+  --nav-h:     72px;
+}

@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>Our Fleet — India by Car Driver</title>
+  <meta name="description" content="Choose from our premium fleet of SUVs, Sedans, and Travellers — available with or without a verified chauffeur. Pan-India coverage from Jaipur."/>
+
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%234338CA'/><path d='M20 18h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.6-1.5-1.9C19.7 11.6 17 11 17 11s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H6c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 003 13v4c0 .6.4 1 1 1h2' stroke='white' stroke-width='1.5' fill='none'/><circle cx='8' cy='18' r='2' stroke='white' stroke-width='1.5' fill='none'/><circle cx='18' cy='18' r='2' stroke='white' stroke-width='1.5' fill='none'/></svg>"/>
+  <link rel="stylesheet" href="static/css/variables.css"/>
+  <link rel="stylesheet" href="static/css/base.css"/>
+  <link rel="stylesheet" href="static/css/components.css"/>
+  <link rel="stylesheet" href="static/css/pages.css"/>
+  <link rel="stylesheet" href="static/css/index.css"/>
+  <link rel="stylesheet" href="static/css/cars.css"/>
+
+  <style>
+    /* ── HERO ── */
+    .fleet-hero {
+      position: relative;
+      min-height: 500px;
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+      background:
+        linear-gradient(135deg, rgba(15,15,42,0.88) 0%, rgba(30,27,75,0.82) 55%, rgba(45,27,105,0.78) 100%),
+        url('https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=1600&q=80') center/cover no-repeat;
+    }
+  </style>
+</head>
+<body>
+
+<!-- TRUST BAR -->
+<div class="trust-bar" aria-hidden="true">
+  <div class="trust-track">
+    <span class="trust-item"><span class="trust-dot"></span>20,000+ Satisfied Travellers</span>
+    <span class="trust-item"><span class="trust-dot"></span>Jaipur · Delhi · Agra · Jaisalmer · Udaipur</span>
+    <span class="trust-item"><span class="trust-dot"></span>Police-Verified Local Drivers</span>
+    <span class="trust-item"><span class="trust-dot"></span>24/7 Dedicated Support</span>
+    <span class="trust-item"><span class="trust-dot"></span>Zero Hidden Charges</span>
+    <span class="trust-item"><span class="trust-dot"></span>Pan-India Coverage · 28 States</span>
+    <span class="trust-item"><span class="trust-dot"></span>SUV · Sedan · Traveller Fleet</span>
+    <span class="trust-item"><span class="trust-dot"></span>Innova Crysta · Safari · XUV700</span>
+    <span class="trust-item"><span class="trust-dot"></span>20,000+ Satisfied Travellers</span>
+    <span class="trust-item"><span class="trust-dot"></span>Jaipur · Delhi · Agra · Jaisalmer · Udaipur</span>
+    <span class="trust-item"><span class="trust-dot"></span>Police-Verified Local Drivers</span>
+    <span class="trust-item"><span class="trust-dot"></span>24/7 Dedicated Support</span>
+    <span class="trust-item"><span class="trust-dot"></span>Zero Hidden Charges</span>
+    <span class="trust-item"><span class="trust-dot"></span>Pan-India Coverage · 28 States</span>
+    <span class="trust-item"><span class="trust-dot"></span>SUV · Sedan · Traveller Fleet</span>
+    <span class="trust-item"><span class="trust-dot"></span>Innova Crysta · Safari · XUV700</span>
+  </div>
+</div>
+
+<!-- NAVBAR -->
+<nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo" aria-label="India by Car Driver — Home">
+      <div class="logo-icon">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 002 12v4c0 .6.4 1 1 1h2"/>
+          <circle cx="7" cy="17" r="2"/>
+          <path d="M9 17h6"/>
+          <circle cx="17" cy="17" r="2"/>
+        </svg>
+      </div>
+      <div class="logo-wordmark">
+        <div class="logo-brand">India<em>by</em>CarDriver</div>
+        <div class="logo-tagline">Premium Road Journeys · All India</div>
+      </div>
+    </a>
+
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="packages.html">Packages</a>
+      <a href="cars.html" class="active">Cars</a>
+      <a href="why-us.html">Why Us</a>
+      <a href="contact.html">Contact</a>
+    </div>
+
+    <div class="nav-cta">
+      <a href="tel:+919829807075" class="btn btn-primary" style="padding:9px 20px;font-size:0.8rem;border-radius:8px;"><svg viewBox="0 0 24 24"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>Call Now</a>
+    </div>
+
+    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- Mobile Drawer -->
+<div class="nav-drawer" id="nav-drawer" role="navigation" aria-label="Mobile navigation">
+  <a href="index.html">Home</a>
+  <a href="about.html">About Us</a>
+  <a href="packages.html">Tour Packages</a>
+  <a href="cars.html" class="active">Our Cars</a>
+  <a href="why-us.html">Why Choose Us</a>
+  <a href="contact.html">Contact Us</a>
+  <div class="drawer-cta">
+    <a href="tel:+919829807075" class="btn btn-outline">
+      <svg viewBox="0 0 24 24"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+      Call: +91-98298 07075
+    </a>
+    <a href="contact.html" class="btn btn-primary">Get Free Quote</a>
+  </div>
+</div>
+
+
+<!-- ═══════════════════════════════════════
+   HERO
+════════════════════════════════════════ -->
+<section class="fleet-hero" aria-label="Our Fleet">
+  <video class="hero-video" autoplay muted loop playsinline>
+    <source src="https://www.pexels.com/download/video/26871770/" type="video/mp4">
+  </video>
+  <div class="container fleet-hero-inner">
+    <div class="fleet-hero-eyebrow">
+      <svg viewBox="0 0 24 24"><path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 002 12v4c0 .6.4 1 1 1h2"/><circle cx="7" cy="17" r="2"/><path d="M9 17h6"/><circle cx="17" cy="17" r="2"/></svg>
+      Our Premium Fleet
+    </div>
+    <h1>Premium Vehicles,<br><em>Every Journey.</em></h1>
+    <p class="fleet-hero-desc">
+      Choose from our carefully maintained fleet of SUVs, Sedans, and Travellers. Available with a verified chauffeur for a relaxed journey, or on a self-drive basis — your call.
+    </p>
+    <!-- <div class="fleet-hero-actions">
+      <a href="#with-driver" class="btn btn-primary" onclick="switchTab('with-driver')">
+        <svg viewBox="0 0 24 24"><path d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>
+        With Chauffeur
+      </a>
+      <a href="#without-driver" class="btn btn-ghost" onclick="switchTab('without-driver')">
+        <svg viewBox="0 0 24 24"><path d="M15 7a2 2 0 012 2m4 0a6 6 0 01-7.743 5.743L11 17H9v2H7v2H4a1 1 0 01-1-1v-2.586a1 1 0 01.293-.707l5.964-5.964A6 6 0 1121 9z"/></svg>
+        Self Drive
+      </a>
+    </div> -->
+  </div>
+</section>
+
+
+<!-- Driver Toggle Banner -->
+<div class="driver-toggle-banner reveal" style="transition-delay:0.1s">
+  <div class="driver-toggle-left">
+    <div class="driver-toggle-icon">
+      <svg viewBox="0 0 24 24"><path d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>
+    </div>
+    <div>
+      <div class="driver-toggle-title">Driver — Optional Add-on</div>
+      <div class="driver-toggle-sub">Toggle to see prices with or without a police-verified chauffeur</div>
+    </div>
+  </div>
+  <div class="driver-toggle-options">
+    <button class="fleet-tab-btn active" id="tab-with-driver" onclick="switchTab('with-driver')" aria-controls="with-driver">
+      <svg viewBox="0 0 24 24"><path d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>
+      Car + Verified Driver
+    </button>
+    <button class="fleet-tab-btn" id="tab-without-driver" onclick="switchTab('without-driver')" aria-controls="without-driver">
+      <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M9 12h6M12 9v6"/></svg>
+      Self Drive (Without Driver)
+    </button>
+  </div>
+</div>
+
+
+<!-- ═══════════════════════════════════════
+   SECTION: WITH DRIVER
+════════════════════════════════════════ -->
+<div class="fleet-section active" id="with-driver" role="tabpanel">
+
+  <!-- Section Intro -->
+  <div class="fleet-section-intro">
+    <div class="container">
+      <div class="fleet-intro-grid">
+        <div>
+          <div class="section-eyebrow"><span class="dot"></span>Chauffeur-Driven</div>
+          <h2 class="fleet-intro-title">Sit Back &amp; <em>Let Us Drive</em></h2>
+          <p class="fleet-intro-desc">
+            All our chauffeur vehicles come with a police-verified, experienced local driver who knows the routes, the culture, and the best stops. Fuel, driver allowance, and tolls — all included in the quoted price.
+          </p>
+          <div class="fleet-intro-badges">
+            <span class="fleet-intro-badge"><svg viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>Police-Verified Drivers</span>
+            <span class="fleet-intro-badge"><svg viewBox="0 0 24 24"><path d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"/></svg>Fuel Included</span>
+            <span class="fleet-intro-badge"><svg viewBox="0 0 24 24"><path d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>Flexible Itinerary</span>
+            <span class="fleet-intro-badge"><svg viewBox="0 0 24 24"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>24/7 Support</span>
+          </div>
+        </div>
+        <div class="fleet-cta-box">
+          <div class="fleet-cta-price">₹20</div>
+          <div class="fleet-cta-from">per km onwards (incl. driver)</div>
+          <a href="contact.html" class="btn btn-primary" style="width:100%;justify-content:center;">
+            <svg viewBox="0 0 24 24"><path d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/></svg>
+            Get a Quote
+          </a>
+          <p style="font-size:0.68rem;color:var(--clr-text-muted);margin-top:10px;">Zero hidden charges · No advance</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Filter Bar -->
+  <div class="container">
+    <div class="filter-bar">
+      <!-- <span class="filter-label">Filter:</span>
+      <button class="filter-chip active" data-filter-wd="all">
+        All Vehicles
+      </button>
+      <button class="filter-chip" data-filter-wd="suv">
+        <svg viewBox="0 0 24 24"><path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 002 12v4c0 .6.4 1 1 1h2"/><circle cx="7" cy="17" r="2"/><path d="M9 17h6"/><circle cx="17" cy="17" r="2"/></svg>
+        SUV
+      </button>
+      <button class="filter-chip" data-filter-wd="sedan">
+        <svg viewBox="0 0 24 24"><path d="M5 17H3a2 2 0 01-2-2V5a2 2 0 012-2h11l5 5v9a2 2 0 01-2 2h-1m-1 0a2 2 0 11-4 0 2 2 0 014 0zM7 17a2 2 0 11-4 0 2 2 0 014 0z"/></svg>
+        Sedan
+      </button>
+      <button class="filter-chip" data-filter-wd="traveller">
+        <svg viewBox="0 0 24 24"><path d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/></svg>
+        Traveller
+      </button> -->
+    </div>
+
+    <!-- Cars Grid -->
+    <div class="cars-grid" id="wd-grid">
+
+      <!-- Innova Crysta -->
+      <div class="car-card reveal" data-type-wd="suv">
+        <div class="car-card-img-wrap">
+          <img class="car-card-img" src="https://wallpapercave.com/wp/wp4482169.jpg" alt="Toyota Innova Crysta" loading="lazy"/>
+          <span class="car-card-category suv">SUV</span>
+          <span class="car-avail-badge">Available</span>
+        </div>
+        <div class="car-card-body">
+          <div class="car-card-name">Toyota Innova Crysta</div>
+          <div class="car-card-meta">
+            <span class="car-meta-item">
+              <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+              7 Seater
+            </span>
+            <span class="car-meta-item">
+              <svg viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16"/></svg>
+              3 Bags
+            </span>
+            <span class="car-meta-item">
+              <svg viewBox="0 0 24 24"><path d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064"/></svg>
+              Diesel
+            </span>
+          </div>
+          <div class="car-card-price">₹32 <span>/ km · driver included</span></div>
+          <div class="car-card-features">
+            <span class="car-feature-tag">AC</span>
+            <span class="car-feature-tag">Music System</span>
+            <span class="car-feature-tag">Charging Points</span>
+            <span class="car-feature-tag">GPS</span>
+          </div>
+          <div class="car-card-actions">
+            <a href="contact.html" class="btn btn-primary">Book Now</a>
+            <a href="https://wa.me/919829807075" class="btn btn-outline" target="_blank" rel="noopener">WhatsApp Us</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tata Safari -->
+      <div class="car-card reveal" data-type-wd="suv">
+        <div class="car-card-img-wrap">
+          <img class="car-card-img" src="https://images.news18.com/ibnlive/uploads/2022/01/tata-safari-dark-edition-11.jpg" alt="Tata Safari" loading="lazy"/>
+          <span class="car-card-category suv">SUV</span>
+          <span class="car-avail-badge">Available</span>
+        </div>
+        <div class="car-card-body">
+          <div class="car-card-name">Tata Safari</div>
+          <div class="car-card-meta">
+            <span class="car-meta-item">
+              <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+              7 Seater
+            </span>
+            <span class="car-meta-item">
+              <svg viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16"/></svg>
+              2 Bags
+            </span>
+            <span class="car-meta-item">
+              <svg viewBox="0 0 24 24"><path d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064"/></svg>
+              Diesel
+            </span>
+          </div>
+          <div class="car-card-price">₹28 <span>/ km · driver included</span></div>
+          <div class="car-card-features">
+            <span class="car-feature-tag">AC</span>
+            <span class="car-feature-tag">Panoramic Sunroof</span>
+            <span class="car-feature-tag">USB Ports</span>
+            <span class="car-feature-tag">4WD</span>
+          </div>
+          <div class="car-card-actions">
+            <a href="contact.html" class="btn btn-primary">Book Now</a>
+            <a href="https://wa.me/919829807075" class="btn btn-outline" target="_blank" rel="noopener">WhatsApp Us</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mahindra XUV700 -->
+      <div class="car-card reveal" data-type-wd="suv">
+        <div class="car-card-img-wrap">
+          <img class="car-card-img" src="https://i.pinimg.com/736x/bf/0c/c8/bf0cc895349c5f97ca5649fb3637543a.jpg" alt="Mahindra XUV700" loading="lazy"/>
+          <span class="car-card-category suv">SUV</span>
+          <span class="car-avail-badge limited">Limited</span>
+        </div>
+        <div class="car-card-body">
+          <div class="car-card-name">Mahindra XUV700</div>
+          <div class="car-card-meta">
+            <span class="car-meta-item">
+              <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+              7 Seater
+            </span>
+            <span class="car-meta-item">
+              <svg viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16"/></svg>
+              2 Bags
+            </span>
+            <span class="car-meta-item">
+              <svg viewBox="0 0 24 24"><path d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064"/></svg>
+              Petrol/Diesel
+            </span>
+          </div>
+          <div class="car-card-price">₹30 <span>/ km · driver included</span></div>
+          <div class="car-card-features">
+            <span class="car-feature-tag">AC</span>
+            <span class="car-feature-tag">ADAS Safety</span>
+            <span class="car-feature-tag">Wireless Charging</span>
+            <span class="car-feature-tag">360 Camera</span>
+          </div>
+          <div class="car-card-actions">
+            <a href="contact.html" class="btn btn-primary">Book Now</a>
+            <a href="https://wa.me/919829807075" class="btn btn-outline" target="_blank" rel="noopener">WhatsApp Us</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Etios Sedan -->
+      <div class="car-card reveal" data-type-wd="sedan">
+        <div class="car-card-img-wrap">
+          <img class="car-card-img" src="https://imgd.aeplcdn.com/370x208/cw/ec/24731/Toyota-Platinum-Etios-Right-Front-Three-Quarter-80057.jpg?v=201711021421&q=80" alt="Swift Dzire Sedan" loading="lazy"/>
+          <span class="car-card-category sedan">Sedan</span>
+          <span class="car-avail-badge">Available</span>
+        </div>
+        <div class="car-card-body">
+          <div class="car-card-name">Etios</div>
+          <div class="car-card-meta">
+            <span class="car-meta-item">
+              <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+              4 Seater
+            </span>
+            <span class="car-meta-item">
+              <svg viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16"/></svg>
+              2 Bags
+            </span>
+            <span class="car-meta-item">
+              <svg viewBox="0 0 24 24"><path d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064"/></svg>
+              Petrol/CNG
+            </span>
+          </div>
+          <div class="car-card-price">₹20 <span>/ km · driver included</span></div>
+          <div class="car-card-features">
+            <span class="car-feature-tag">AC</span>
+            <span class="car-feature-tag">Music System</span>
+            <span class="car-feature-tag">Comfortable</span>
+            <span class="car-feature-tag">Fuel Efficient</span>
+          </div>
+          <div class="car-card-actions">
+            <a href="contact.html" class="btn btn-primary">Book Now</a>
+            <a href="https://wa.me/919829807075" class="btn btn-outline" target="_blank" rel="noopener">WhatsApp Us</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Ciaz -->
+      <div class="car-card reveal" data-type-wd="sedan">
+        <div class="car-card-img-wrap">
+          <img class="car-card-img" src="https://i.ndtvimg.com/i/2014-09/maruti-ciaz-main_625x300_41409654496.jpg" alt="Honda City Sedan" loading="lazy"/>
+          <span class="car-card-category sedan">Sedan</span>
+          <span class="car-avail-badge">Available</span>
+        </div>
+        <div class="car-card-body">
+          <div class="car-card-name">Ciaz</div>
+          <div class="car-card-meta">
+            <span class="car-meta-item">
+              <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+              4 Seater
+            </span>
+            <span class="car-meta-item">
+              <svg viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16"/></svg>
+              2 Bags
+            </span>
+            <span class="car-meta-item">
+              <svg viewBox="0 0 24 24"><path d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064"/></svg>
+              Petrol
+            </span>
+          </div>
+          <div class="car-card-price">₹26 <span>/ km · driver included</span></div>
+          <div class="car-card-features">
+            <span class="car-feature-tag">AC</span>
+            <span class="car-feature-tag">Premium Interior</span>
+            <span class="car-feature-tag">Sunroof</span>
+            <span class="car-feature-tag">Touchscreen</span>
+          </div>
+          <div class="car-card-actions">
+            <a href="contact.html" class="btn btn-primary">Book Now</a>
+            <a href="https://wa.me/919829807075" class="btn btn-outline" target="_blank" rel="noopener">WhatsApp Us</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Traveller 12/17 Seater -->
+      <div class="car-card reveal" data-type-wd="traveller">
+        <div class="car-card-img-wrap">
+          <img class="car-card-img" src="https://bishttourandtravels.com/wp-content/uploads/2024/02/12-seater-Tempo-Traveller-1024x576.jpg" alt="Force Traveller" loading="lazy"/>
+          <span class="car-card-category traveller">Traveller</span>
+          <span class="car-avail-badge">Available</span>
+        </div>
+        <div class="car-card-body">
+          <div class="car-card-name">Force Traveller 12/17</div>
+          <div class="car-card-meta">
+            <span class="car-meta-item">
+              <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+              12–17 Seater
+            </span>
+            <span class="car-meta-item">
+              <svg viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16"/></svg>
+              Luggage Rack
+            </span>
+            <span class="car-meta-item">
+              <svg viewBox="0 0 24 24"><path d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064"/></svg>
+              Diesel
+            </span>
+          </div>
+          <div class="car-card-price">₹38 <span>/ km · driver included</span></div>
+          <div class="car-card-features">
+            <span class="car-feature-tag">AC</span>
+            <span class="car-feature-tag">Push-Back Seats</span>
+            <span class="car-feature-tag">Group Travel</span>
+            <span class="car-feature-tag">Music System</span>
+          </div>
+          <div class="car-card-actions">
+            <a href="contact.html" class="btn btn-primary">Book Now</a>
+            <a href="https://wa.me/919829807075" class="btn btn-outline" target="_blank" rel="noopener">WhatsApp Us</a>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /wd-grid -->
+
+    <!-- What's Included -->
+    <div class="incl-excl reveal">
+      <div class="section-eyebrow"><span class="dot"></span>Chauffeur Package</div>
+      <h3 style="font-family:var(--ff-display);font-size:var(--fs-xl);font-weight:700;margin-top:4px;">What's Included &amp; Excluded</h3>
+      <div class="incl-excl-grid">
+        <div>
+          <div class="incl-title included">
+            <svg viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            Included
+          </div>
+          <div class="incl-list">
+            <div class="incl-item yes"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>Fuel &amp; all running costs</div>
+            <div class="incl-item yes"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>Driver bata (daily allowance)</div>
+            <div class="incl-item yes"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>National highway tolls</div>
+            <div class="incl-item yes"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>GST &amp; all applicable taxes</div>
+            <div class="incl-item yes"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>24/7 trip support</div>
+            <div class="incl-item yes"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>Complimentary route planning</div>
+          </div>
+        </div>
+        <div>
+          <div class="incl-title excluded">
+            <svg viewBox="0 0 24 24"><path d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            Not Included
+          </div>
+          <div class="incl-list">
+            <div class="incl-item no"><svg viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>Hotel / accommodation</div>
+            <div class="incl-item no"><svg viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>Meals for the traveller</div>
+            <div class="incl-item no"><svg viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>Entry tickets / monument fees</div>
+            <div class="incl-item no"><svg viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>Parking charges at attractions</div>
+            <div class="incl-item no"><svg viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>State permits (if applicable)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /container -->
+</div><!-- /with-driver -->
+
+
+<!-- ═══════════════════════════════════════
+   SECTION: WITHOUT DRIVER
+════════════════════════════════════════ -->
+<div class="fleet-section" id="without-driver" role="tabpanel">
+
+  <!-- Section Intro -->
+  <div class="fleet-section-intro self-drive">
+    <div class="container">
+      <div class="fleet-intro-grid">
+        <div>
+          <div class="section-eyebrow" style="background:#fff7ed;border-color:rgba(245,158,11,0.2);color:#b45309;"><span class="dot" style="background:#d97706;"></span>Self Drive</div>
+          <h2 class="fleet-intro-title"><em class="sd">Drive at</em> Your Own Rhythm</h2>
+          <p class="fleet-intro-desc">
+            Prefer freedom behind the wheel? Our self-drive fleet is fully maintained, insured, and ready for your adventure. Valid DL and Aadhaar required. Available for local &amp; outstation trips.
+          </p>
+          <div class="fleet-intro-badges">
+            <span class="fleet-intro-badge amber"><svg viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>Fully Insured</span>
+            <span class="fleet-intro-badge amber"><svg viewBox="0 0 24 24"><path d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>Clean &amp; Serviced</span>
+            <span class="fleet-intro-badge amber"><svg viewBox="0 0 24 24"><path d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>Flexible Rentals</span>
+            <span class="fleet-intro-badge amber"><svg viewBox="0 0 24 24"><path d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z"/></svg>Roadside Assist</span>
+          </div>
+        </div>
+        <div class="fleet-cta-box amber">
+          <div class="fleet-cta-price amber">₹9</div>
+          <div class="fleet-cta-from">per km onwards (self drive)</div>
+          <a href="contact.html" class="btn btn-rose" style="width:100%;justify-content:center;">
+            <svg viewBox="0 0 24 24"><path d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/></svg>
+            Enquire Now
+          </a>
+          <p style="font-size:0.68rem;color:var(--clr-text-muted);margin-top:10px;">Fuel extra · Valid DL required</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Requirements Notice -->
+  <div class="container" style="padding-top:32px;">
+    <div class="requirements-notice reveal">
+      <div class="requirements-icon">
+        <svg viewBox="0 0 24 24"><path d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>
+      </div>
+      <div>
+        <div class="requirements-title">Documents Required for Self Drive</div>
+        <ul class="requirements-list">
+          <li>Valid Indian Driving Licence (minimum 1 year old)</li>
+          <li>Aadhaar Card or any Government-issued ID</li>
+          <li>Refundable security deposit (vehicle-dependent)</li>
+          <li>Minimum age: 21 years</li>
+          <li>Trip itinerary or destination details at time of booking</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Filter Bar -->
+    <!-- <div class="filter-bar">
+      <span class="filter-label">Filter:</span>
+      <button class="filter-chip active amber-chip" data-filter-sd="all">All Vehicles</button>
+      <button class="filter-chip" data-filter-sd="suv" style="--hover-clr:#d97706;">
+        <svg viewBox="0 0 24 24"><path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 002 12v4c0 .6.4 1 1 1h2"/><circle cx="7" cy="17" r="2"/><path d="M9 17h6"/><circle cx="17" cy="17" r="2"/></svg>
+        SUV
+      </button>
+      <button class="filter-chip" data-filter-sd="hatchback">
+        <svg viewBox="0 0 24 24"><path d="M5 17H3a2 2 0 01-2-2V5a2 2 0 012-2h11l5 5v9a2 2 0 01-2 2h-1m-1 0a2 2 0 11-4 0 2 2 0 014 0zM7 17a2 2 0 11-4 0 2 2 0 014 0z"/></svg>
+        Hatchback
+      </button>
+      <button class="filter-chip" data-filter-sd="sedan">
+        <svg viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="7" rx="2"/><path d="M6 11V7a2 2 0 012-2h8a2 2 0 012 2v4"/></svg>
+        Sedan
+      </button>
+    </div> -->
+
+    <!-- Self-Drive Cars Grid -->
+    <div class="cars-grid" id="sd-grid">
+
+      <!-- Swift -->
+      <div class="car-card self-drive-card reveal" data-type-sd="hatchback">
+        <div class="car-card-img-wrap">
+          <img class="car-card-img" src="https://www.v3cars.com/media/model-imgs/55021803-swift-front-quater-exterior.webp" alt="Maruti Swift" loading="lazy"/>
+          <span class="car-card-category self-drive">Hatchback</span>
+          <span class="car-avail-badge">Available</span>
+        </div>
+        <div class="car-card-body">
+          <div class="car-card-name">Maruti Swift</div>
+          <div class="car-card-meta">
+            <span class="car-meta-item">
+              <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
+              5 Seater
+            </span>
+            <span class="car-meta-item">
+              <svg viewBox="0 0 24 24"><path d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064"/></svg>
+              Petrol/CNG
+            </span>
+          </div>
+          <div class="car-card-price" style="color:#d97706;">₹9 <span>/ km · fuel extra</span></div>
+          <div class="car-card-features">
+            <span class="car-feature-tag">AC</span>
+            <span class="car-feature-tag">Automatic Option</span>
+            <span class="car-feature-tag">Great Mileage</span>
+          </div>
+          <div class="car-card-actions">
+            <a href="contact.html" class="btn btn-rose">Book Now</a>
+            <a href="https://wa.me/919829807075" class="btn btn-outline" target="_blank" rel="noopener">WhatsApp Us</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Baleno -->
+      <div class="car-card self-drive-card reveal" data-type-sd="hatchback">
+        <div class="car-card-img-wrap">
+          <img class="car-card-img" src="https://s3-ap-southeast-1.amazonaws.com/staticin.izmocars.com/toolkit/IN/2025/25nexa/25nexabaleno/25nexabaleno_pixGallery/_gallerypix/nexa_baleno_concept.jpg" alt="Maruti Baleno" loading="lazy"/>
+          <span class="car-card-category self-drive">Hatchback</span>
+          <span class="car-avail-badge">Available</span>
+        </div>
+        <div class="car-card-body">
+          <div class="car-card-name">Maruti Baleno</div>
+          <div class="car-card-meta">
+            <span class="car-meta-item">
+              <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
+              5 Seater
+            </span>
+            <span class="car-meta-item">
+              <svg viewBox="0 0 24 24"><path d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945"/></svg>
+              Petrol
+            </span>
+          </div>
+          <div class="car-card-price" style="color:#d97706;">₹10 <span>/ km · fuel extra</span></div>
+          <div class="car-card-features">
+            <span class="car-feature-tag">AC</span>
+            <span class="car-feature-tag">Head-Up Display</span>
+            <span class="car-feature-tag">360 Camera</span>
+          </div>
+          <div class="car-card-actions">
+            <a href="contact.html" class="btn btn-rose">Book Now</a>
+            <a href="https://wa.me/919829807075" class="btn btn-outline" target="_blank" rel="noopener">WhatsApp Us</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dzire Self Drive -->
+      <div class="car-card self-drive-card reveal" data-type-sd="sedan">
+        <div class="car-card-img-wrap">
+          <img class="car-card-img" src="https://www.suzukiauto.co.za/hubfs/Dzire%20-%20Magma%20Grey%20Metallic.png" alt="Maruti Dzire Self Drive" loading="lazy"/>
+          <span class="car-card-category sedan">Sedan</span>
+          <span class="car-avail-badge">Available</span>
+        </div>
+        <div class="car-card-body">
+          <div class="car-card-name">Swift Dzire (Sedan)</div>
+          <div class="car-card-meta">
+            <span class="car-meta-item">
+              <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
+              5 Seater
+            </span>
+            <span class="car-meta-item">
+              <svg viewBox="0 0 24 24"><path d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945"/></svg>
+              CNG/Petrol
+            </span>
+          </div>
+          <div class="car-card-price" style="color:#d97706;">₹11 <span>/ km · fuel extra</span></div>
+          <div class="car-card-features">
+            <span class="car-feature-tag">AC</span>
+            <span class="car-feature-tag">Boot Space</span>
+            <span class="car-feature-tag">City + Highway</span>
+          </div>
+          <div class="car-card-actions">
+            <a href="contact.html" class="btn btn-rose">Book Now</a>
+            <a href="https://wa.me/919829807075" class="btn btn-outline" target="_blank" rel="noopener">WhatsApp Us</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Creta Self Drive -->
+      <div class="car-card self-drive-card reveal" data-type-sd="suv">
+        <div class="car-card-img-wrap">
+          <img class="car-card-img" src="https://wallpapercave.com/wp/wp8657721.jpg" alt="Hyundai Creta" loading="lazy"/>
+          <span class="car-card-category suv">SUV</span>
+          <span class="car-avail-badge limited">Limited</span>
+        </div>
+        <div class="car-card-body">
+          <div class="car-card-name">Hyundai Creta</div>
+          <div class="car-card-meta">
+            <span class="car-meta-item">
+              <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
+              5 Seater
+            </span>
+            <span class="car-meta-item">
+              <svg viewBox="0 0 24 24"><path d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945"/></svg>
+              Petrol/Diesel
+            </span>
+          </div>
+          <div class="car-card-price" style="color:#d97706;">₹13 <span>/ km · fuel extra</span></div>
+          <div class="car-card-features">
+            <span class="car-feature-tag">AC</span>
+            <span class="car-feature-tag">Sunroof</span>
+            <span class="car-feature-tag">Automatic</span>
+            <span class="car-feature-tag">Rear Cam</span>
+          </div>
+          <div class="car-card-actions">
+            <a href="contact.html" class="btn btn-rose">Book Now</a>
+            <a href="https://wa.me/919829807075" class="btn btn-outline" target="_blank" rel="noopener">WhatsApp Us</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Innova Self Drive -->
+      <div class="car-card self-drive-card reveal" data-type-sd="suv">
+        <div class="car-card-img-wrap">
+          <img class="car-card-img" src="https://wallpapercave.com/wp/wp4482169.jpg" alt="Toyota Innova Self Drive" loading="lazy"/>
+          <span class="car-card-category suv">SUV</span>
+          <span class="car-avail-badge">Available</span>
+        </div>
+        <div class="car-card-body">
+          <div class="car-card-name">Toyota Innova Crysta</div>
+          <div class="car-card-meta">
+            <span class="car-meta-item">
+              <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
+              7 Seater
+            </span>
+            <span class="car-meta-item">
+              <svg viewBox="0 0 24 24"><path d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945"/></svg>
+              Diesel
+            </span>
+          </div>
+          <div class="car-card-price" style="color:#d97706;">₹16 <span>/ km · fuel extra</span></div>
+          <div class="car-card-features">
+            <span class="car-feature-tag">AC</span>
+            <span class="car-feature-tag">7-Seater</span>
+            <span class="car-feature-tag">Mountain Ready</span>
+          </div>
+          <div class="car-card-actions">
+            <a href="contact.html" class="btn btn-rose">Book Now</a>
+            <a href="https://wa.me/919829807075" class="btn btn-outline" target="_blank" rel="noopener">WhatsApp Us</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Fortuner Self Drive -->
+      <div class="car-card self-drive-card reveal" data-type-sd="suv">
+        <div class="car-card-img-wrap">
+          <img class="car-card-img" src="https://imgd.aeplcdn.com/370x208/n/cw/ec/44709/fortuner-exterior-right-front-three-quarter-7.jpeg?isig=0&q=80" alt="Toyota Fortuner Self Drive" loading="lazy"/>
+          <span class="car-card-category suv">SUV</span>
+          <span class="car-avail-badge limited">Limited</span>
+        </div>
+        <div class="car-card-body">
+          <div class="car-card-name">Toyota Fortuner</div>
+          <div class="car-card-meta">
+            <span class="car-meta-item">
+              <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
+              7 Seater
+            </span>
+            <span class="car-meta-item">
+              <svg viewBox="0 0 24 24"><path d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945"/></svg>
+              Diesel 4WD
+            </span>
+          </div>
+          <div class="car-card-price" style="color:#d97706;">₹20 <span>/ km · fuel extra</span></div>
+          <div class="car-card-features">
+            <span class="car-feature-tag">AC</span>
+            <span class="car-feature-tag">4WD</span>
+            <span class="car-feature-tag">Premium</span>
+            <span class="car-feature-tag">Off-road</span>
+          </div>
+          <div class="car-card-actions">
+            <a href="contact.html" class="btn btn-rose">Book Now</a>
+            <a href="https://wa.me/919829807075" class="btn btn-outline" target="_blank" rel="noopener">WhatsApp Us</a>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /sd-grid -->
+  </div><!-- /container -->
+</div><!-- /without-driver -->
+
+
+<!-- ═══════════════════════════════════════
+   CTA BAND
+════════════════════════════════════════ -->
+<div class="cta-band">
+  <div class="container">
+    <div class="cta-band-inner">
+      <div class="cta-band-text reveal">
+        <h2>Ready to Discover India?</h2>
+        <p>Call us now for a free, no-obligation quote. We plan every detail of your journey — you just pack and travel.</p>
+      </div>
+      <div class="cta-band-actions reveal" style="transition-delay:0.15s">
+        <a href="contact.html" class="btn btn-white">Get Free Quote</a>
+        <a href="https://wa.me/919829807075" class="btn btn-ghost" target="_blank" rel="noopener">WhatsApp Us</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- ═══════════════════════════════════════
+   FOOTER — Completely Redesigned
+════════════════════════════════════════ -->
+<footer>
+  <!-- Route scroll strip -->
+  <div class="footer-route-scroll">
+    <div class="footer-route-track">
+      <span class="footer-route-item">Jaipur</span><span class="footer-route-item">Delhi</span><span class="footer-route-item">Agra</span><span class="footer-route-item">Jodhpur</span><span class="footer-route-item">Jaisalmer</span><span class="footer-route-item">Udaipur</span><span class="footer-route-item">Kochi</span><span class="footer-route-item">Munnar</span><span class="footer-route-item">Alleppey</span><span class="footer-route-item">Haridwar</span><span class="footer-route-item">Rishikesh</span><span class="footer-route-item">Varanasi</span><span class="footer-route-item">Chennai</span><span class="footer-route-item">Ooty</span><span class="footer-route-item">Coorg</span><span class="footer-route-item">Mysore</span><span class="footer-route-item">Amritsar</span><span class="footer-route-item">Shimla</span><span class="footer-route-item">Manali</span><span class="footer-route-item">Goa</span><span class="footer-route-item">Leh</span><span class="footer-route-item">Darjeeling</span>
+      <span class="footer-route-item">Jaipur</span><span class="footer-route-item">Delhi</span><span class="footer-route-item">Agra</span><span class="footer-route-item">Jodhpur</span><span class="footer-route-item">Jaisalmer</span><span class="footer-route-item">Udaipur</span><span class="footer-route-item">Kochi</span><span class="footer-route-item">Munnar</span><span class="footer-route-item">Alleppey</span><span class="footer-route-item">Haridwar</span><span class="footer-route-item">Rishikesh</span><span class="footer-route-item">Varanasi</span><span class="footer-route-item">Chennai</span><span class="footer-route-item">Ooty</span><span class="footer-route-item">Coorg</span><span class="footer-route-item">Mysore</span><span class="footer-route-item">Amritsar</span><span class="footer-route-item">Shimla</span><span class="footer-route-item">Manali</span><span class="footer-route-item">Goa</span><span class="footer-route-item">Leh</span><span class="footer-route-item">Darjeeling</span>
+    </div>
+  </div>
+
+  <!-- Footer upper -->
+  <div class="footer-upper">
+    <div class="container">
+      <div class="footer-grid">
+
+        <!-- Brand column -->
+        <div>
+          <div class="footer-brand-logo">
+            <div class="footer-logo-icon">
+              <svg viewBox="0 0 24 24"><path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 002 12v4c0 .6.4 1 1 1h2"/><circle cx="7" cy="17" r="2"/><path d="M9 17h6"/><circle cx="17" cy="17" r="2"/></svg>
+            </div>
+            <div>
+              <div class="footer-brand-name">India<em>by</em>CarDriver</div>
+              <div class="footer-tagline-text">Premium Road Journeys · All India</div>
+            </div>
+          </div>
+          <p class="footer-desc">Your trusted partner for premium chauffeur-driven road tours across India. From Rajasthan's golden sands to Kerala's emerald shores — every mile handled with care, expertise, and warmth.</p>
+          <div class="footer-socials">
+            <a href="#" class="social-btn" aria-label="Facebook">
+              <svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+            </a>
+            <a href="#" class="social-btn" aria-label="Instagram">
+              <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="#" class="social-btn" aria-label="YouTube">
+              <svg viewBox="0 0 24 24"><path d="M22.54 6.42a2.78 2.78 0 00-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 00-1.95 1.96A29 29 0 001 12a29 29 0 00.46 5.58A2.78 2.78 0 003.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 001.95-1.95A29 29 0 0023 12a29 29 0 00-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02"/></svg>
+            </a>
+            <a href="https://wa.me/919829807075" class="social-btn wa" aria-label="WhatsApp">
+              <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div>
+          <div class="footer-col-title">Quick Links</div>
+          <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="packages.html">Tour Packages</a>
+            <a href="cars.html">Our Cars</a>
+            <a href="why-us.html">Why Choose Us</a>
+            <a href="contact.html">Contact</a>
+          </div>
+        </div>
+
+        <!-- Popular Tours -->
+        <div>
+          <div class="footer-col-title">Popular Tours</div>
+          <div class="footer-links">
+            <a href="golden-triangle.html">Golden Triangle</a>
+            <a href="royal-rajasthan.html">Royal Rajasthan</a>
+            <a href="kerala-backwaters.html">Kerala Backwaters</a>
+            <a href="char-dham-uttarakhand.html">Char Dham Yatra</a>
+            <a href="himachal-hill-escape.html">Himachal Hill Escape</a>
+            <a href="south-india-grand-circuit.html">South India Circuit</a>
+          </div>
+        </div>
+
+        <!-- Contact -->
+        <div>
+          <div class="footer-col-title">Get in Touch</div>
+          <div class="footer-contact-item">
+            <div class="footer-contact-icon-wrap">
+              <svg viewBox="0 0 24 24"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+            </div>
+            <div>
+              <div class="footer-contact-lbl">Phone / WhatsApp</div>
+              <div class="footer-contact-val"><a href="tel:+919829807075">+91-98298 07075</a></div>
+            </div>
+          </div>
+          <div class="footer-contact-item">
+            <div class="footer-contact-icon-wrap">
+              <svg viewBox="0 0 24 24"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+            </div>
+            <div>
+              <div class="footer-contact-lbl">Email</div>
+              <div class="footer-contact-val"><a href="mailto:info@indiabycardriver.com">info@indiabycardriver.com</a></div>
+            </div>
+          </div>
+          <div class="footer-contact-item">
+            <div class="footer-contact-icon-wrap">
+              <svg viewBox="0 0 24 24"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+            </div>
+            <div>
+              <div class="footer-contact-lbl">Base Location</div>
+              <div class="footer-contact-val">Jaipur, Rajasthan, India</div>
+            </div>
+          </div>
+          <div class="footer-contact-item">
+            <div class="footer-contact-icon-wrap">
+              <svg viewBox="0 0 24 24"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            </div>
+            <div>
+              <div class="footer-contact-lbl">Support Hours</div>
+              <div class="footer-contact-val">24 / 7 — Always Available</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer bottom bar -->
+  <div class="container">
+    <div class="footer-bottom">
+      <div class="footer-copy">&copy; 2026 <span>India by Car Driver</span>. All rights reserved. </div>
+      <div class="footer-legal">
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms &amp; Conditions</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<!-- ═══════════════════════════════════════
+   FLOATING BUTTONS
+════════════════════════════════════════ -->
+<a class="wa-float" href="https://wa.me/919829807075?text=Hi!%20I%20want%20to%20book%20a%20car%20with%20driver%20for%20an%20India%20tour." target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+  <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+</a>
+
+<button class="back-top" id="back-top" aria-label="Back to top">
+  <svg viewBox="0 0 24 24"><polyline points="18 15 12 9 6 15"/></svg>
+</button>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+<script src="static/js/main.js"></script>
+<script>
+  /* ── TAB SWITCHING ── */
+  function switchTab(which) {
+    document.querySelectorAll('.fleet-section').forEach(s => s.classList.remove('active'));
+    document.querySelectorAll('.fleet-tab-btn').forEach(b => b.classList.remove('active'));
+    document.getElementById(which).classList.add('active');
+    document.getElementById('tab-' + which).classList.add('active');
+    // Scroll to tabs bar
+    document.getElementById('fleet-tabs').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  /* ── WITH DRIVER FILTER ── */
+  document.querySelectorAll('[data-filter-wd]').forEach(chip => {
+    chip.addEventListener('click', () => {
+      document.querySelectorAll('[data-filter-wd]').forEach(c => c.classList.remove('active'));
+      chip.classList.add('active');
+      const f = chip.dataset.filterWd;
+      document.querySelectorAll('#wd-grid .car-card').forEach(card => {
+        card.style.display = (f === 'all' || card.dataset.typeWd === f) ? '' : 'none';
+      });
+    });
+  });
+
+  /* ── SELF DRIVE FILTER ── */
+  document.querySelectorAll('[data-filter-sd]').forEach(chip => {
+    chip.addEventListener('click', () => {
+      document.querySelectorAll('[data-filter-sd]').forEach(c => c.classList.remove('active'));
+      chip.classList.add('active');
+      const f = chip.dataset.filterSd;
+      document.querySelectorAll('#sd-grid .car-card').forEach(card => {
+        card.style.display = (f === 'all' || card.dataset.typeSd === f) ? '' : 'none';
+      });
+    });
+  });
+
+  /* ── URL HASH HANDLING ── */
+  if (window.location.hash === '#without-driver') {
+    switchTab('without-driver');
+  }
+</script>
+</body>
+</html>
